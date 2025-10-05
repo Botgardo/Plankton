@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="recursos/logo_con_relleno.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/d7f49bf7b2.js" crossorigin="anonymous"></script>
+    <title>Shark Code</title>
+</head>
+<body id="root" class="flow">
+    <!-- Hero de la página -->
+    <section class="hero">
+        <div class="container hero bg-img-hero">
+            <header id="header" class="hero__header flex">
+                <a id="hero_logo" href="#root" class="home"><img src="recursos/logo_con_relleno.svg" class="hero__logo"></a>
+                <nav class="hero__nav flex" aria-label="Main navigation">
+                    <ul class="hero__menu flex">
+                        <li><a href="#mission" class="hero__link">Mission</a></li>
+                        <li><a href="#about" class="hero__link">About Us</a></li>
+                        <li><a href="#model" class="hero__link">Model</a></li>
+                        <li><a href="#contact" class="hero__link">Contact</a></li>
+                    </ul>
+                    <a href="#data"><button class="hero__button">Explore</button></a>
+                </nav>
+            </header>
+
+            <div class="hero__content grid flow">
+                <h1 class="hero__title fs-700 text-primary-800 text-center">Science and conservation united for the guardians of the sea.</h1>
+                <p class="hero__subtitle fs-500 text-primary-100 text-center">Let's explore the habitat of these predators.</p>
+                <a href="#data"><button class="hero__button hero__button--primary">Start exploring now</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <main>
+        <div class="container main flow">
+        <!-- 🌊 Sección: Misión -->
+            <section class="mission section" id="mission">
+                <div class="container flow">
+                    <h2 class="section__title fs-600">Mission</h2>
+                    <div class="mission__content flex">
+                        <div class="mission__text bg-shades-200">
+                            <p class="text-primary-100">
+                                The study of shark behavior and movement patterns is essential for understanding
+                                their role in marine ecosystems and ensuring their conservation.
+                                Through this research, scientists can learn where, how, and why sharks move,
+                                which allows for the protection of both the species and the habitats they use.
+                                <br><br>
+                                The study of shark behavior and movement patterns is essential for understanding
+                                their role in marine ecosystems and ensuring their conservation.
+                                Through this research, scientists can learn where, how, and why sharks move,
+                                which allows for the protection of both the species and the habitats they use.
+                            </p>
+                        </div>
+                        <div class="mission__gallery">
+                            <figure class="mission__image"><img src="recursos/ali-abdul-rahman-Vio3XKE0aV0-unsplash.jpg" alt="Shark swimming"></figure>
+                            <figure class="mission__image"><img src="recursos/colton-jones-MSQ3hmxyQSo-unsplash.jpg" alt="Shark tracking"></figure>
+                            <figure class="mission__image"><img src="recursos/gerald-schombs-pWSjdGBWyAo-unsplash.jpg" alt="Shark migration map"></figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 🌐 Sección: About Us -->
+            <section class="about section" id="about">
+                <div class="container flow">
+                    <h2 class="section__title fs-600">About Us</h2>
+                    <div class="about__content flex">
+                        <div class="about__text">
+                            <p>
+                                We are a passionate, multidisciplinary student team dedicated to innovation
+                                and the creation of cutting-edge technological solutions for marine conservation.
+                                Our core mission is to design and develop advanced devices that significantly
+                                contribute to the research, protection, and preservation of shark communities
+                                in marine reserves worldwide.
+                                <br><br>
+                                We are a passionate, multidisciplinary student team dedicated to innovation
+                                and the creation of cutting-edge technological solutions for marine conservation.
+                                Our core mission is to design and develop advanced devices that significantly
+                                contribute to the research, protection, and preservation of shark communities
+                                in marine reserves worldwide.
+                            </p>
+                        </div>
+                        <div class="about__media">
+                            <img src="recursos/owen-harding-9ymhDpiB_Bw-unsplash.jpg" alt="Research team working" class="about__image">
+                            <!-- <div class="about__accent"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 📊 Sección: Modelo -->
+            <section class="model section" id="model">
+                <div class="container grid flow">
+                    <h2 class="section__title fs-600">Model</h2>
+                    <div class="model__gallery flex">
+                        <figure class="model__image"><img src="recursos/gerald-schombs-pWSjdGBWyAo-unsplash.jpg" alt="Data model diagram"></figure>
+                        <figure class="model__image"><img src="recursos/gerald-schombs-ZLAYocyj6JA-unsplash.jpg" alt="Dataset visualization"></figure>
+                        <figure class="model__image"><img src="recursos/colton-jones-MSQ3hmxyQSo-unsplash.jpg" alt="Shark movement prediction"></figure>
+                    </div>
+                    <div class="model__text">
+                        <p>
+                            Our model collects information from datasets provided by NASA and oceanographic institutions.
+                            Using this data, we create correlations to predict shark movements and identify key migration patterns.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 📞 Sección: Contacto -->
+            <section class="contact section" id="contact">
+                <div class="container flow">
+                    <h2 class="section__title fs-600">Contact</h2>
+                    <div class="contact__cards grid flow bg-shades-300 text-primary-100">
+                        <!-- Tarjeta de miembro -->
+                        <article class="contact__card flex">
+                            <img src="recursos/vecteezy_multiplication-sign-icon-design_50292652_982/vecteezy_multiplication-sign-icon-design_50292652.jpg" alt="Rafa Moreno" class="contact__photo">
+                            <div class="contact__info flow">
+                                <h3 class="contact__name">Rafa Moreno</h3>
+                                <p class="contact__role">Data analysis and mathematical modeling specialist</p>
+                                <ul class="contact__social flex text-primary-100">
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-google fa-2xl"></i></a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="contact__card flex">
+                            <img src="recursos/vecteezy_multiplication-sign-icon-design_50292652_982/vecteezy_multiplication-sign-icon-design_50292652.jpg" alt="Rafa Moreno" class="contact__photo">
+                            <div class="contact__info flow">
+                                <h3 class="contact__name">Rafa Moreno</h3>
+                                <p class="contact__role">Data analysis and mathematical modeling specialist</p>
+                                <ul class="contact__social flex text-primary-100">
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-google fa-2xl"></i></a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="contact__card flex">
+                            <img src="recursos/vecteezy_multiplication-sign-icon-design_50292652_982/vecteezy_multiplication-sign-icon-design_50292652.jpg" alt="Rafa Moreno" class="contact__photo">
+                            <div class="contact__info flow">
+                                <h3 class="contact__name">Rafa Moreno</h3>
+                                <p class="contact__role">Data analysis and mathematical modeling specialist</p>
+                                <ul class="contact__social flex text-primary-100">
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-google fa-2xl"></i></a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="contact__card flex">
+                            <img src="recursos/vecteezy_multiplication-sign-icon-design_50292652_982/vecteezy_multiplication-sign-icon-design_50292652.jpg" alt="Rafa Moreno" class="contact__photo">
+                            <div class="contact__info flow">
+                                <h3 class="contact__name">Rafa Moreno</h3>
+                                <p class="contact__role">Data analysis and mathematical modeling specialist</p>
+                                <ul class="contact__social flex text-primary-100">
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-google fa-2xl"></i></a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="contact__card flex">
+                            <img src="recursos/vecteezy_multiplication-sign-icon-design_50292652_982/vecteezy_multiplication-sign-icon-design_50292652.jpg" alt="Rafa Moreno" class="contact__photo">
+                            <div class="contact__info flow">
+                                <h3 class="contact__name">Rafa Moreno</h3>
+                                <p class="contact__role">Data analysis and mathematical modeling specialist</p>
+                                <ul class="contact__social flex text-primary-100">
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-google fa-2xl"></i></a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="contact__card flex">
+                            <img src="recursos/vecteezy_multiplication-sign-icon-design_50292652_982/vecteezy_multiplication-sign-icon-design_50292652.jpg" alt="Rafa Moreno" class="contact__photo">
+                            <div class="contact__info flow">
+                                <h3 class="contact__name">Rafa Moreno</h3>
+                                <p class="contact__role">Data analysis and mathematical modeling specialist</p>
+                                <ul class="contact__social flex text-primary-100">
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                    <li><a href="#" class="icon__link"><i class="fa-brands fa-google fa-2xl"></i></a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Seccion: Data Map-->
+            <section class="data section" id="data">
+                <div class="container">
+                    <h2 class="section__title fs-600">Data Map</h2>
+                    <div class="data__map">
+                        <iframe src="mapacloromeromero.html" class="map"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- Pie de pagina-->
+    <footer id="footer" class="footer grid text-primary-100">
+        <div class="footer__container grid bg-shades-200">
+            <div class="flex">
+                <div class="waves">
+                    <div class="wave" id="wave1"></div>
+                    <div class="wave" id="wave2"></div>
+                    <div class="wave" id="wave3"></div>
+                    <div class="wave" id="wave4"></div>
+                </div>
+                <div class="footer__brand flow">
+                    <a class="home" href="#root"><img src="recursos/logo_con_relleno.svg" class="footer__logo home"></a>
+                    <p class="footer__description fs-300">Nuestro equipo se dedica a atender problematicas del medioa hambiente con un enfoque cientifico, matematico y computacional</p>
+                    <ul class="footer__social">
+                        <li><a class="icon__link" href="#"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav">
+                    <h3 class="fs-400">Referens</h3>
+                    <ul class="footer__menu">
+                        <li><a href="#root" class="footer__link home">Home</a></li>
+                        <li><a href="#about" class="footer__link">About Us</a></li>
+                        <li><a href="#mission" class="footer__link">Mision</a></li>
+                        <li><a href="#model" class="footer__link">Model</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                        <li><a href="#data" class="footer__link">Data</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav">
+                    <h3 class="fs-400">Quick shorts</h3>
+                    <ul class="footer__menu">
+                        <li><a href="#root" class="footer__link home">Home</a></li>
+                        <li><a href="#about" class="footer__link">About Us</a></li>
+                        <li><a href="#mission" class="footer__link">Mision</a></li>
+                        <li><a href="#model" class="footer__link">Model</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                        <li><a href="#data" class="footer__link">Data</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__derechos">
+                <hr>
+                <p class="fs-200 text-primary-100 text-center">© 2025 Todos los derechos reservados</p>
+            </div>
+            </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
