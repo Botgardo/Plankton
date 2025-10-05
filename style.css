@@ -38,6 +38,9 @@
     /*Font-families*/
     --ff-urbanist:"Urbanist", sans-serif;
     --ff-montserrat: "Montserrat", sans-serif;
+    --ff-sigma: "Sigmar", sans-serif;
+    --ff-lexend: "Lexend Giga", sans-serif;
+    --ff-mogra: "Mogra", system-ui;
 }
 
 
@@ -143,6 +146,11 @@ select {
     scroll-margin-top: 4.7rem;
 }
 
+.section__title{
+    font-family: var(--ff-mogra);
+    color: var(--clr-shades-400);
+}
+
 .flow > *:where(:not(:first-child)) {
     margin-top: 1.5rem;
     /* outline: 1px solid red; */
@@ -202,6 +210,9 @@ select {
 
 .ff-urbanist{ font-family: var(--ff-urbanist);}
 .ff-montserrat{ font-family: var(--ff-montserrat);}
+.ff-sigma{ font-family: var(--ff-sigma);}
+.ff-lexend{ font-family: var(--ff-lexend);}
+.ff-mogra{ font-family: var(--ff-mogra);}
 
 .letter-spacing-1{ letter-spacing: 4.75px;}
 .letter-spacing-2{ letter-spacing: 2.7px;}
@@ -457,6 +468,14 @@ select {
     margin-left: 3%;
 }
 
+.contact__info{
+    width: 100%;
+}
+
+.contact__rol{
+    width: 100%;
+}
+
 .contact__social{
     list-style: none;
     justify-content: space-around;
@@ -467,7 +486,25 @@ select {
     color: var(--clr-primary-100);
 }
 /* seccion data map*/
+.data__buttons{
+    justify-content: space-around;
+    list-style: none;
+}
 
+.data__button{
+    background-color: var(--clr-shades-300);
+    padding-inline: 1rem;
+    border-radius: 16px;
+    border: none;
+    color: var(--clr-primary-100);
+    font-size: var(--fs--400);
+    cursor: pointer;
+}
+
+.data__button:hover{
+    background-color: var(--clr-shades-200);
+    color: var(--clr-primary-300);
+}
 .data__map{
     height: 100vh;
 }
@@ -598,8 +635,7 @@ select {
 /*           */
 
 /* Mobile design*/
-@media only screen and (max-width: 900px){
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /*Hero*/
     .hero__title{
         font-size: var(--fs--600);

@@ -29,3 +29,9 @@
         });
     })
   })
+
+  /* funcion para cambiar el mapa de iframe*/
+    function cambiarIframe(nuevaPagina) {
+      const iframe = document.getElementById("miIframe");
+      iframe.src = nuevaPagina;
+    }
